@@ -33,13 +33,14 @@ Get the server's socket address: IP address (xxx.xxx.xxx.xxx), the defined port 
 <img src="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/Images/3.png">
 
 ### Step 3: Run the client
-Paste the IP to <p style="color:red;">xxx.xxx.xxx.xxx</p> in <p style="color:red;">host_ip = 'xxx.xxx.xxx.xxx'  # <<<=== paste your server ip address here</p>
+Paste the IP and replace 'xxx.xxx.xxx' with the actual IP address of the server in <p style="color:red;">host_ip = 'xxx.xxx.xxx.xxx'  # <<<=== paste your server ip address here</p>
 Open Terminal and run $python3 client.py to start the client (Make sure you have already installed all necessary libraries like socket, cv2,... before running the client.py file)
 <img src="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/Images/4.png">
 
 ### THAT'S IT
 <p>The client is now continuously receives data packets from the server and reconstructs the video frames. The received frames are then displayed using cv2.imshow.</p>
-<p>Make sure the client code is executed after the server code is running, and replace '127.0.1.1' with the actual IP address of the server you want to connect to.</p>
+<p>Make sure the client code is executed after the server code is running, and replace 'xxx.xxx.xxx' with the actual IP address of the server you want to connect to.</p>
 <p><img src="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/Images/5.gif"></p>
 <p>Pressing 'q' will break the loop and close the client socket.</p>
+<p style="color:red;">This is a red paragraph.</p>
  
