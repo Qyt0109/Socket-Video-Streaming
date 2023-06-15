@@ -14,3 +14,9 @@ A socket can be either a client or a server. The client socket initiates a conne
 In programming, sockets are typically implemented through socket libraries or APIs provided by the operating system. These libraries provide functions and methods to create, configure, and manage sockets, as well as send and receive data over the network.
 
 Overall, sockets form the foundation of network communication, enabling applications to communicate and exchange data in a networked environment.
+
+## How to run the code
+
+### Step 1: Open SocketWebCam folder (VSCode)
+<img src="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/Images/1.png">
+There is 2 files: <a href="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/server.py">server.py</a> - This code is for the server
