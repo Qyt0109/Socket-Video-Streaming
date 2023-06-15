@@ -5,7 +5,7 @@ import struct
 
 # create socket
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-host_ip = '127.0.1.1'  # <<<=== paste your server ip address here
+host_ip = 'xxx.xxx.xxx.xxx'  # <<<=== paste your server ip address here
 port = 9999
 client_socket.connect((host_ip, port))  # a tuple
 data = b""
