@@ -28,6 +28,8 @@ There is 2 files:
 <img src="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/Images/1.png">
 
 ### Step 2: Run the server
+Open the server.py file
+
 Open Terminal and run $python3 server.py to start the server (Make sure you have already installed all necessary libraries like socket, cv2, imutils,... before running the server.py file)
 
 <img src="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/Images/2.png">
@@ -37,7 +39,9 @@ Get the server's socket address: IP address (xxx.xxx.xxx.xxx), the defined port 
 <img src="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/Images/3.png">
 
 ### Step 3: Run the client
-Paste the IP and replace <a>'xxx.xxx.xxx'</a> with the actual IP address of the server in <a>host_ip = 'xxx.xxx.xxx.xxx'  # <<<=== paste your server ip address here</a>
+Open the client.py file
+
+Replace <a>'xxx.xxx.xxx'</a> with the actual IP address of the server
 Open Terminal and run $python3 client.py to start the client (Make sure you have already installed all necessary libraries like socket, cv2,... before running the client.py file)
   
 <img src="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/Images/4.png">
