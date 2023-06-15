@@ -18,29 +18,32 @@ Overall, sockets form the foundation of network communication, enabling applicat
 ## How to run the code
 
 ### Step 1: Open SocketWebCam folder (VSCode)
-There is 2 files:
 Open SocketWebCam folder
+There is 2 files:
 <ul>
   <li><a href="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/server.py">server.py</a> - This code is for setting up a server that captures video frames from a webcam using OpenCV and sends them over a socket connection to a client</li>
   <li><a href="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/client.py">client.py</a> - This code represents the client-side implementation to receive and display video frames from the server</li>
 </ul>
+
 <img src="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/Images/1.png">
 
 ### Step 2: Run the server
 Open Terminal and run $python3 server.py to start the server (Make sure you have already installed all necessary libraries like socket, cv2, imutils,... before running the server.py file)
+
 <img src="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/Images/2.png">
+
 Get the server's socket address: IP address (xxx.xxx.xxx.xxx), the defined port (9999), copy it so the client can make a connection to the HOST (server)
+
 <img src="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/Images/3.png">
 
 ### Step 3: Run the client
-Paste the IP and replace 'xxx.xxx.xxx' with the actual IP address of the server in <p style="color:red;">host_ip = 'xxx.xxx.xxx.xxx'  # <<<=== paste your server ip address here</p>
+Paste the IP and replace <a>'xxx.xxx.xxx'</a> with the actual IP address of the server in <a>host_ip = 'xxx.xxx.xxx.xxx'  # <<<=== paste your server ip address here</a>
 Open Terminal and run $python3 client.py to start the client (Make sure you have already installed all necessary libraries like socket, cv2,... before running the client.py file)
+  
 <img src="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/Images/4.png">
 
 ### THAT'S IT
 <p>The client is now continuously receives data packets from the server and reconstructs the video frames. The received frames are then displayed using cv2.imshow.</p>
-<p>Make sure the client code is executed after the server code is running, and replace 'xxx.xxx.xxx' with the actual IP address of the server you want to connect to.</p>
+<p>Make sure the client code is executed after the server code is running, and replace <a>'xxx.xxx.xxx'</a> with the actual IP address of the server you want to connect to.</p>
 <p><img src="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/Images/5.gif"></p>
 <p>Pressing 'q' will break the loop and close the client socket.</p>
-<p style="color:red;">This is a red paragraph.</p>
- <p style="color:blue">This is demo content.</p>
