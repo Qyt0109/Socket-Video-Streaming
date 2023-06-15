@@ -43,4 +43,4 @@ Open Terminal and run $python3 client.py to start the client (Make sure you have
 <p><img src="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/Images/5.gif"></p>
 <p>Pressing 'q' will break the loop and close the client socket.</p>
 <p style="color:red;">This is a red paragraph.</p>
- 
+ <p style="color:blue">This is demo content.</p>
