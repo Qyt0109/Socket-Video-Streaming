@@ -19,4 +19,13 @@ Overall, sockets form the foundation of network communication, enabling applicat
 
 ### Step 1: Open SocketWebCam folder (VSCode)
 <img src="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/Images/1.png">
-There is 2 files: <a href="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/server.py">server.py</a> - This code is for the server
+There is 2 files:
+<ul>
+  <li><a href="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/server.py">server.py</a> - This code is for setting up a server that captures video frames from a webcam using OpenCV and sends them over a socket connection to a client</li>
+  <li><a href="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/client.py">server.py</a> - This code represents the client-side implementation to receive and display video frames from the server</li>
+</ul>
+
+### Step 2: Run the server
+<img src="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/Images/2.png">
+Open Terminal and run $python3 server.py (Make sure you have already installed all necessary libraries like socket, cv2,... before run the server.py)
+
