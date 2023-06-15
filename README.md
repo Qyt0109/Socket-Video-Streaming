@@ -18,14 +18,21 @@ Overall, sockets form the foundation of network communication, enabling applicat
 ## How to run the code
 
 ### Step 1: Open SocketWebCam folder (VSCode)
-<img src="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/Images/1.png">
 There is 2 files:
+Open SocketWebCam folder
 <ul>
   <li><a href="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/server.py">server.py</a> - This code is for setting up a server that captures video frames from a webcam using OpenCV and sends them over a socket connection to a client</li>
-  <li><a href="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/client.py">server.py</a> - This code represents the client-side implementation to receive and display video frames from the server</li>
+  <li><a href="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/client.py">client.py</a> - This code represents the client-side implementation to receive and display video frames from the server</li>
 </ul>
+<img src="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/Images/1.png">
 
 ### Step 2: Run the server
+Open Terminal and run $python3 server.py to start the server (Make sure you have already installed all necessary libraries like socket, cv2, imutils,... before running the server.py file)
 <img src="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/Images/2.png">
-Open Terminal and run $python3 server.py (Make sure you have already installed all necessary libraries like socket, cv2,... before run the server.py)
+Get the server's socket address: IP address (xxx.xxx.xxx.xxx), the defined port (9999), copy it so the client can make a connection to the HOST (server)
+<img src="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/Images/3.png">
 
+### Step 3: Run the client
+Paste the IP to <p style="color:red;">xxx.xxx.xxx.xxx</p> in <p style="color:red;">host_ip = 'xxx.xxx.xxx.xxx'  # <<<=== paste your server ip address here</p>
+Open Terminal and run $python3 client.py to start the client (Make sure you have already installed all necessary libraries like socket, cv2,... before running the client.py file)
+<img src="https://github.com/Qyt0109/Socket-Video-Streaming/blob/main/SocketWebcam/Images/4.png">
